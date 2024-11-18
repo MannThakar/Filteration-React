@@ -5,7 +5,7 @@ const CustomSelect = ({ options, value, onChange, label }) => {
     <form class="max-w-sm mx-auto">
       <label
         for="countries"
-        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+        class="block text-sm font-medium text-gray-900 dark:text-white"
       >
         {label}
       </label>

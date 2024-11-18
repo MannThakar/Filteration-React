@@ -1,11 +1,11 @@
 import Nav from "../components/Nav";
-import DataTable from "../components/DataTable";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
       <Nav />
-      <DataTable />
+      {Outlet}
     </>
   );
 };

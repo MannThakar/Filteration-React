@@ -4,4 +4,10 @@
 
 body {
   background-color: #18122b28;
+  scrollbar-width: thin;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d7d6d6 #f1f1f1;
 }
